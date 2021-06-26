@@ -1,0 +1,91 @@
+header {
+    min-height: 70px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+header .logo {
+    flex: 1;
+}
+
+header a {
+    text-transform: uppercase;
+    color: #333;
+}
+
+header li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    opacity: 0.7;
+    padding: 0 20px;
+    position: relative;
+    list-style: none;
+}
+
+header ul li:hover {
+    opacity: 1;
+}
+
+header ul li:hover {
+    opacity: 1;
+}
+
+.nav-item:hover>a {
+    color: crimson;
+}
+
+.menu {
+    display: none;
+}
+
+.cart-icon {
+    position: relative;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.cart-icon span {
+    background: crimson;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 8px;
+    font-size: 10px;
+}
+
+header .nav-sub {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    right: 0;
+}
+
+header .nav-sub li {
+    padding-top: 10px;
+}
+
+header .nav-sub a {
+    color: #000;
+    line-height: 28px;
+    font-size: 15px;
+}
+
+header li:hover .nav-sub {
+    display: block;
+}
+.nav-sub li:hover>a{
+    color: maroon;
+}

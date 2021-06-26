@@ -1,0 +1,165 @@
+.amount span {
+    color: crimson;
+    padding: 0 20px;
+}
+
+.amount button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #777;
+}
+
+.cart-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.order-container {
+    max-width: 960px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.cart-item {
+    border-bottom: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart-info p {
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+th {
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    background: #ff523b;
+    font-weight: normal;
+}
+
+td {
+    padding: 10px 5px;
+}
+
+td input {
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a {
+    color: #ff523b;
+    font-size: 12px;
+}
+
+td img {
+    width: 100px;
+    height: 120px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.total-price {
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.total-price table {
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 350px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+.th:last-child {
+    text-align: right;
+}
+
+.remove {
+    color: #ff523b;
+    cursor: pointer;
+}
+
+.remove:hover {
+    font-weight: 500;
+}
+
+.total {
+    font-weight: 600;
+    font-size: 20px;
+    color: #ff523b;
+}
+
+.payment {
+    display: block;
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 10px 0;
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.payment:hover {
+    border: 2px solid tomato;
+    color: #000;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.view {
+    font-weight: 500;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.view:hover {
+    color: crimson;
+    opacity: 1;
+}
+
+.back {
+    margin-bottom: 20px;
+}
+
+.back a {
+    color: tomato;
+    font-weight: 500;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.back a:hover {
+    color: crimson;
+    opacity: 1;
+}
